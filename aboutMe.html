@@ -7,25 +7,46 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/164461bbf8.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <nav class="project-nav">
             <a href="index.html"> <img class="logo" src="src/images/logo.png" alt="WELCOME" /> </a>
-            <ul>
+            <ul id="nav-list">
                 <li><a href="aboutMe.html">About Me</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contacts.html">Contacts</a></li>
             </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
         <section class="sub-section" id="about-me">
             <div class="information">
                 <h2>About Me</h2>
-                <p>Hello, I'm Rohit Narayan</p>
+                <p class="my">Hello, I'm Rohit Narayan
+                    I am about to Graduate in Computer Science from Graphic Era University. 
+                    <hr />
+                    I enjoy problem-solving and coding. Always strive to bring 100% to the work I do.
+                    <hr/>  
+                    I have worked on technologies like Python, MySQL, HTML5, CSS, Java, C++ during my bachelor's.
+                    <hr/> 
+                    I am passionate about solving complex problems that brings best out of me.
+                    <hr/> 
+                    To know more about me. Kindly click on the social profile given in Homepage <h4>Thankyou</h4> 
+                         <a href="index.html"> <img class ="aboutme-home" src="src/images/logo.png" alt="WELCOME" /> </a>
+                         
+                    
+                </p>
+                    
             </div>
             <div class="headshot-container">
                 <img class="headshot" src="src/images/profile.jpg" alt="Rohit Narayan profile" />
             </div>
+            
         </section>
+
+        
         <script src="src/app.js"></script>
     </body>
 </html>

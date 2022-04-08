@@ -7,47 +7,51 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/164461bbf8.js" crossorigin="anonymous"></script>
     </head>
     <body>
             <nav class="project-nav">
                 <a href="index.html"> <img class="logo" src="src/images/logo.png" alt="WELCOME" /> </a>
-                <ul>
+                <ul id="nav-list">
                     <li><a href="aboutMe.html">About Me</a></li>
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="contacts.html">Contacts</a></li>
                 </ul>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
             </nav>
         <section class="sub-section-alternative">
-            <h2>Projects</h2>
+            <h2 class="project-color">Projects</h2>
             <div class="project-container">
                 <div class="project-card">
-                    <img class="project-image" src="src/images/project1.jpg" alt="Project one image" />
-                    <h3>Project One</h3>
-                    <p class="subtext">This is my project</p>
-                    <hr/>
-                    <p class="subtext"><a class="project-link" href="https://www.github.com/Rohit-Narayan" target="_blank">View here</a></p>
-                </div>
-                <div class="project-card">
-                    <img class="project-image" src="src/images/project2.png" alt="Project one image" />
-                    <h3>Project Two</h3>
-                    <p class="subtext">This is my project</p>
-                    <hr/>
-                    <p class="subtext"><a class="project-link" href="https://www.github.com/Rohit-Narayan" target="_blank">View here</a></p>
-                </div>
-                <div class="project-card">
-                    <img class="project-image" src="src/images/project3.jpg" alt="Project one image" />
-                    <h3>Project Three</h3>
-                    <p class="subtext">This is my project</p>
-                    <hr/>
-                    <p class="subtext"><a class="project-link" href="https://www.github.com/Rohit-Narayan" target="_blank">View here</a></p>
-                </div>
-                <div class="project-card">
-                    <img class="project-image" src="src/images/project4.jpg" alt="Project one image" />
-                    <h3>Project Four</h3>
-                    <p class="subtext">This is my project</p>
-                    <hr/>
-                    <p class="subtext"><a class="project-link" href="https://www.github.com/Rohit-Narayan">View here</a></p>
-                </div>
+                        
+                        <img class="project-image" src="src/images/northwind-er-diagram.png"  alt="Project  image" />
+                        
+                    </div>
+                    <div class="project-card">
+                        <h3>Re-engineer Traders Sales Database to Data Warehouse</h3>
+                        <hr/>
+                        <p class="subtext">About the Northwind sample database
+                            The Northwind database is a sample database that was originally created by Microsoft and used as the basis for their tutorials in a variety of database products for decades. The Northwind database contains the sales data for a fictitious company called “Northwind Traders,” which imports and exports specialty foods from around the world. The Northwind database is an excellent tutorial schema for a small-business ERP, with customers, orders, inventory, purchasing, suppliers, shipping, employees, and single-entry accounting. The Northwind database has since been ported to a variety of non-Microsoft databases, including PostgreSQL.
+                            
+                            The Northwind dataset includes sample data for the following.
+                            
+                            Suppliers: Suppliers and vendors of Northwind
+                            Customers: Customers who buy products from Northwind
+                            Employees: Employee details of Northwind traders
+                            Products: Product information
+                            Shippers: The details of the shippers who ship the products from the traders to the end-customers
+                            Orders and Order_Details: Sales Order transactions taking place between the customers & the company
+                            The Northwind sample database includes 13 tables and the table relationships are showcased in the following entity relationship diagram.
+                            
+                            </p>
+                            
+                        </div>  
+                        
+                    
+                    <!-- <p class="subtext"><a class="project-link" href="https://www.github.com/Rohit-Narayan" target="_blank">View here</a></p> -->
+                
             </div>
         </section>
         <script src="src/app.js"></script>
